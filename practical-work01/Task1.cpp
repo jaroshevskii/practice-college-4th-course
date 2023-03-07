@@ -13,7 +13,8 @@ int main() {
   std::cin >> number;
 
   if (number < 1) {
-    std::cout << "Помилка: Число не може бути менше 1.";
+    std::cout << "Помилка: Число не може бути менше 1.\n";
+    return 0;
   }
   
   int previous1 = 0, previous2 = 1, next = 0;
