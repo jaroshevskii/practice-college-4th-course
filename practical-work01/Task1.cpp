@@ -12,8 +12,8 @@ int main() {
   int number = 0;
   std::cin >> number;
 
-  if (number < 0) {
-    std::cout << "Помилка: Число не може бути відємним.";
+  if (number < 1) {
+    std::cout << "Помилка: Число не може бути менше 1.";
   }
   
   int previous1 = 0, previous2 = 1, next = 0;
