@@ -27,7 +27,7 @@ int main() {
       previous1 = previous2;
       previous2 = next;
     }
-    std::cout << next << " ";
+    std::cout << next << ' ';
     ++index;
   }
 
