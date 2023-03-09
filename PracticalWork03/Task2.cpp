@@ -7,14 +7,14 @@
 #include <vector>
 
 /// Перевіряє, чи є паліндромом заданий рядок в діапазоні між start та end.
-bool isPalindrome(const std::string &str, int start, int end) {
+bool isPalindrome(const std::string &string, int start, int end) {
   if (start >= end) {
     return true;
   }
-  if (str[start] != str[end]) {
+  if (string[start] != string[end]) {
     return false;
   }
-  return isPalindrome(str, start + 1, end - 1);
+  return isPalindrome(string, start + 1, end - 1);
 }
 
 /// Перевіряє, чи є паліндромом заданий рядок.
