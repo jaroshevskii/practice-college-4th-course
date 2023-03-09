@@ -57,7 +57,7 @@ public:
               << "  CD: " << c.distanceTo(d) << '\n'
               << "  DA: " << d.distanceTo(a) << '\n'
               << "Perimeter: " << perimeter() << '\n'
-              << "Area:      " << area() << "\n\n";
+              << "Area:      " << area() << '\n';
   }
 };
 
