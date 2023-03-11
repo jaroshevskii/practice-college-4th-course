@@ -23,7 +23,7 @@ bool isPalindrome(const std::string &str) {
 }
 
 int main() {
-  const std::vector<std::string> strings = {"hello", "level", "fuck"};
+  const std::vector<std::string> strings = {"hello", "level", "lol"};
 
   for (const std::string &string : strings) {
     if (isPalindrome(string)) {
