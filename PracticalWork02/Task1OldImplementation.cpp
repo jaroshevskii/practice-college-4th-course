@@ -46,7 +46,7 @@ public:
 
 int main() {
   const Box box(3.0, 3.0, 3.0);
-  
+
   box.print();
   return 0;
 }

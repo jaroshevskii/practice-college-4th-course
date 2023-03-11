@@ -25,13 +25,6 @@ public:
   Point c; ///< Третя вершина трапеції.
   Point d; ///< Четверта вершина трапеції.
 
-  /// Конструктор за замовчуванням.
-  Trapeze() = default;
-
-  /// Конструктор, який ініціалізує вершини трапеції.
-  Trapeze(const Point &a, const Point &b, const Point &c, const Point &d)
-      : a(a), b(b), c(c), d(d) {}
-
   /// Перевіряє чи є трапеція рівнобічною.
   bool isEquilateral() const { return a.distanceTo(c) == b.distanceTo(d); }
 
@@ -67,7 +60,7 @@ int main() {
   const Point c{.x = 3.0, .y = 3.0};
   const Point d{.x = 1.0, .y = 3.0};
 
-  const Trapeze trapeze(a, b, c, d);
+  const Trapeze trapeze{a, b, c, d};
 
   trapeze.print();
   return 0;
