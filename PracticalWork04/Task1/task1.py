@@ -8,9 +8,10 @@ import os
 try:
     # Відкриття файлів для читання та запису
     with open("Input.txt", "r") as file_input, open("Count.txt", "w") as file_count:
-
         # Читання всіх символів з файлу Input.txt
         text = file_input.read()
+
+        print(text)
 
         # Знаходження кількості символів
         count = len(text)

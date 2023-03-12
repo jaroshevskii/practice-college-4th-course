@@ -1,0 +1,6 @@
+Number of positive numbers: 10
+Number of negative numbers: 4
+Number of even numbers: 7
+Number of odd numbers: 7
+Maximum number: 123
+Minimum number: -234

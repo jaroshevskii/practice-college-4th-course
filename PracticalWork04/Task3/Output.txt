@@ -1,0 +1,3 @@
+Number of uppercase letters: 1
+Number of lowercase letters: 9
+Number of 'o' characters: 2
